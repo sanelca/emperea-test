@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ovo uputstvo sluzi da iniciranje projekta u dockeru
 
-Things you may want to cover:
+Prvo je potrebno klonirati projekat sa: 
+git clone https://github.com/sanelca/emperea-test.git
 
-* Ruby version
+Nakon sto klonirate projekat udjite u folder kroz vash git bash ili cmd
+cd emperea-api-1
 
-* System dependencies
+Nakon toga provjerite da li imate instaliran docker i docker-compose
 
-* Configuration
+Ako imate izvrsite naredbu:
+docker-compose up --build
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ako se projekat uspjesno podigne mozete iskoristiti postman kolekciju koju saljem putem maila
+Za svako dodatno pitanje stojim na raspolaganju
